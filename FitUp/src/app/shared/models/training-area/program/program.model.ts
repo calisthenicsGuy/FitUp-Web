@@ -6,5 +6,8 @@ export interface Program {
   location: ProgramLocation;
   timesPerWeek: number;
   split: ProgramSplit;
-  trainingDays: number;
+  trainingDaysForAWeek: number;
+  startDate: Date;
+  endDate: Date;
+  durationInMonths: number;
 }
